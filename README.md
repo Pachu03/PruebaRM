@@ -38,34 +38,34 @@ Para ejecutar este proyecto, necesitarás tener instalado:
 Sigue estos pasos para instalar el proyecto:
 
 bash
-# Clonar el repositorio
+- **Clonar el repositorio**
 git clone https://github.com/usuario/repositorio.git
 
-# Acceder al directorio del backend
+- **Acceder al directorio del backend**
 cd repositorio/backend
 
-# Instalar dependencias de Laravel
+- **Instalar dependencias de Laravel**
 composer install
 
-# Configurar el archivo de entorno
+- **Configurar el archivo de entorno**
 cp .env.example .env
 
-# Generar la clave de aplicación
+- **Generar la clave de aplicación**
 php artisan key:generate
 
-# Configurar la base de datos en el archivo .env y ejecutar migraciones
+- **Configurar la base de datos en el archivo .env y ejecutar migraciones**
 php artisan migrate --seed
 
-# Iniciar el servidor de Laravel
+- **Iniciar el servidor de Laravel**
 php artisan serve
 
-# Acceder al directorio del frontend
+- **Acceder al directorio del frontend**
 cd ../frontend
 
-# Instalar dependencias de Angular
+- **Instalar dependencias de Angular**
 npm install
 
-# Iniciar la aplicación Angular
+- **Iniciar la aplicación Angular**
 ng serve --open
 
 ## Uso
@@ -78,7 +78,6 @@ Para ejecutar el proyecto, sigue estos pasos:
 
    ```bash
    php artisan serve
-
 
 2. Ejecuta el backend con el siguiente comando:
 
